@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:the_movie_database/pages/favoritesPage.dart';
 import 'package:the_movie_database/pages/moviePage.dart';
 
 class HomePage extends StatefulWidget{
@@ -28,8 +29,8 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         physics: NeverScrollableScrollPhysics(),
         children: <Widget>[
           moviePage(),
-          pruebaPage('Searchhhhh'),
-          pruebaPage('Favoritesssss')
+          pruebaPage('Search'),
+          favoritesPage()
           ],
         controller: _controller,
       ),
