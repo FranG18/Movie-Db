@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         physics: NeverScrollableScrollPhysics(),
         children: <Widget>[
           moviePage(),
-          pruebaPage('Search'),
+          pruebaPage('Searchhhhh'),
           pruebaPage('Favorites')
           ],
         controller: _controller,
