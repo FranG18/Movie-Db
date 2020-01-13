@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         children: <Widget>[
           moviePage(),
           pruebaPage('Searchhhhh'),
-          pruebaPage('Favorites')
+          pruebaPage('Favoritesssss')
           ],
         controller: _controller,
       ),
